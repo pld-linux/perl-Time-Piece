@@ -4,12 +4,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Time
 %define	pnam	Piece
-Summary:	Object Oriented time objects
-Summary(pl):	Obiekty czasu
+Summary:	Time::Piece - object oriented time objects
+Summary(pl):	Time::Piece - obiekty czasu
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
 Release:	4
-License:	GPL/Artistic
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	572e8a60c161e45bdd59110cdb4821d7
