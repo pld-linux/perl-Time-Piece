@@ -7,7 +7,7 @@
 %define	pnam	Piece
 Summary:	Time::Piece - object oriented time objects
 Summary(pl):	Time::Piece - obiekty czasu
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Time-Piece
 Version:	1.08
 Release:	5
 # same as perl
