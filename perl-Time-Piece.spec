@@ -8,15 +8,14 @@ Summary:	Object Oriented time objects
 Summary(pl):	Obiekty czasu
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl >= 5.6
+BuildConflicts:	perl-Attribute-Persistent < 1.0-3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreqdep	'perl(UNIVERSAL)'
 
 %description
 This module replaces the standard localtime and gmtime functions with
