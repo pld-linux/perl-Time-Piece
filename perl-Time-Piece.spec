@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Time/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c37baba0a110e7b2382a00d63ad3cba4
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -55,9 +55,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-#%dir %{perl_vendorarch}/%{pdir}/ # -- which package should be a Time/ owner?
-%{perl_vendorarch}/%{pdir}/*.pm
-#%dir %{perl_vendorarch}/auto/%{pdir} # -- which package should be a Time/ owner?
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/%{pnam}.*
+#%dir %{perl_vendorarch}/Time # -- which package should be a Time/ owner?
+%{perl_vendorarch}/Time/*.pm
+#%dir %{perl_vendorarch}/auto/Time # -- which package should be a Time/ owner?
+%dir %{perl_vendorarch}/auto/Time/Piece
+%{perl_vendorarch}/auto/Time/Piece/Piece.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Time/Piece/Piece.so
 %{_mandir}/man3/*
