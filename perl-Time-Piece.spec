@@ -55,9 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-#%dir %{perl_vendorarch}/Time # -- which package should be a Time/ owner?
 %{perl_vendorarch}/Time/*.pm
-#%dir %{perl_vendorarch}/auto/Time # -- which package should be a Time/ owner?
 %dir %{perl_vendorarch}/auto/Time/Piece
 %{perl_vendorarch}/auto/Time/Piece/Piece.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Time/Piece/Piece.so
