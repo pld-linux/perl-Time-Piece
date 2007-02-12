@@ -6,7 +6,7 @@
 %define		pdir	Time
 %define		pnam	Piece
 Summary:	Time::Piece - object oriented time objects
-Summary(pl):	Time::Piece - obiekty czasu
+Summary(pl.UTF-8):   Time::Piece - obiekty czasu
 Name:		perl-Time-Piece
 Version:	1.09
 Release:	1
@@ -27,11 +27,11 @@ implementations that return objects. It does so in a backwards
 compatible manner, so that using localtime/gmtime in the way
 documented in perlfunc will still return what you expect.
 
-%description -l pl
-Ten modu³ zastêpuje standardowe funkcje localtime i gmtime
-implementacjami zwracaj±cymi obiekty. Czyni to w sposób wstecznie
-kompatybilny, wiêc u¿ywanie localtime/gmtime w sposób opisany w
-perlfunc nadal bêdzie robiæ to, czego siê oczekuje.
+%description -l pl.UTF-8
+Ten moduÅ‚ zastÄ™puje standardowe funkcje localtime i gmtime
+implementacjami zwracajÄ…cymi obiekty. Czyni to w sposÃ³b wstecznie
+kompatybilny, wiÄ™c uÅ¼ywanie localtime/gmtime w sposÃ³b opisany w
+perlfunc nadal bÄ™dzie robiÄ‡ to, czego siÄ™ oczekuje.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
