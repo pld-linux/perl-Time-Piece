@@ -13,8 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Time/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	39e4e3a50bca575231da0ddf7fd46911
+URL:		http://search.cpan.org/dist/Time-Piece/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
