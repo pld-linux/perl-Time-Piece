@@ -9,7 +9,7 @@ Summary:	Time::Piece - object oriented time objects
 Summary(pl.UTF-8):	Time::Piece - obiekty czasu
 Name:		perl-Time-Piece
 Version:	1.12
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
