@@ -9,7 +9,7 @@ Summary:	Time::Piece - object oriented time objects
 Summary(pl.UTF-8):	Time::Piece - obiekty czasu
 Name:		perl-Time-Piece
 Version:	1.15
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/%{pdir}-%{pnam}-%{version}.tar.gz
