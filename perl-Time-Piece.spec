@@ -8,12 +8,12 @@
 Summary:	Time::Piece - object oriented time objects
 Summary(pl.UTF-8):	Time::Piece - obiekty czasu
 Name:		perl-Time-Piece
-Version:	1.15
-Release:	3
+Version:	1.20
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b88b29d6b70179b7679f2d26b4e27589
+# Source0-md5:	99589dce0375d51ff9287a5431444c5f
 URL:		http://search.cpan.org/dist/Time-Piece/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
