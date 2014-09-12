@@ -57,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Time/*.pm
 %dir %{perl_vendorarch}/auto/Time/Piece
-%{perl_vendorarch}/auto/Time/Piece/Piece.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Time/Piece/Piece.so
 %{_mandir}/man3/*
